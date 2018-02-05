@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "sourceType": "script"
+  },
+  "extends": ["eslint:recommended", "plugin:node/recommended"],
+  "env": {
+    "node": true,
+    "jest/globals": true
+  },
+  "plugins": ["node", "jest"],
+  "rules": {
+    "no-console": "off",
+    "node/exports-style": ["error", "module.exports"],
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error"
+  }
+}
